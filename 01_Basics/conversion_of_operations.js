@@ -24,3 +24,19 @@ console.log(convert);
 // "adyasha" => true
  
 
+// *********************************** Operations ***********************************
+let value = 3;
+let negValue = -value;
+console.table([value, negValue]);
+
+// adding two strings
+let str1 = "Hello";
+let str2 = " Adyasha";
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "5"); // 35
+// In JavaScript, the + operator works left to right. If at any step one operand is a string, JavaScript converts the other operand to a string and performs concatenation; otherwise, it performs numeric addition.
