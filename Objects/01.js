@@ -40,6 +40,14 @@ console.log(Juser);
 }
 */
 
+Juser.greeting = function(){
+  console.log("Hello JS user");
+}
+console.log(Juser.greeting); // [Function (anonymous)]
+console.log(Juser.greeting());
+// Hello JS user
+// undefined
+
 
 
 
